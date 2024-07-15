@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo">Portfolio.</a>
+    <nav class="navbar" >
+      <!-- <box-icon name='menu' class="nav" value="navbar" id="navbtn" onclick="openmenu()"></box-icon> -->
+      <i class='bx bx-menu' class="nav" value="navbar" id="navbtn" onclick="openmenu()"></i>
+      <!-- <input type="button" class="nav" value="navbar" id="navbtn" onclick="openmenu()"> -->
+      <a class="hello" href="#" style="--i:1" class="ative">Home</a>
+      <a href="#about" style="--i:2">About</a>
+      <a href="#services" style="--i:3">services</a>
+      <a href="#skill" style="--i:3">Skills</a>
+      <a href="#project" style="--i:4">Projects</a>
+      <a href="#contact" style="--i:5">Contact</a>
+    </nav>
+  </header>
+  <nav class="navbar1" id="menu">
+    <div><i class='bx bxs-home' style='color:#f5deb3'  ></i><a href="#" style="--i:1" class="ative"> Home</a></div>
+    <div><i class='bx bxs-user-circle' style='color:#f5deb3'></i></i><a href="#about" style="--i:2"> About</a></div>
+    <div><i class='bx bx-run' style='color:#f5deb3' ></i><a href="#services" style="--i:3"> services</a></div>
+    <div><i class='bx bxs-bulb' style='color:#f5deb3' ></i><a href="#skill" style="--i:3"> Skills</a></div>
+    <div><i class='bx bxs-briefcase-alt-2' style='color:#f5deb3' ></i><a href="#project" style="--i:4"> Projects</a></div>
+    <div><i class='bx bxs-contact' style='color:#f5deb3' ></i>  <a href="#contact" style="--i:5"> Contact</a></div>
+  </nav>
+  <section class="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Hitesh Suthar</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>I'm a Javascript Developer. I am currently doing a internship.
+        <br>experties is to create and Desing Websites, Frontent design and many more...
+      </p>
+      <div class="home-sci">
+        <a href="#" style="--i:6"><img src="images/facebook.png" alt=""></a>
+        <a href="#" style="--i:7"><img src="images/instagram.png" alt=""></a>
+        <a href="#" style="--i:8"><img src="images/github.png" alt=""></a>
+        <a href="#" style="--i:9"><img src="images/linkedin.png" alt=""></a>
+      </div>
+      <a href="#" class="btn-box">More About me</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="about" id="about">
+      <div class="about-img">
+        <img class="h-img" src="images/hitesh2.png" />
+      </div>
+      <div class="about-content">
+        <h3>About<span>Me</span></h3>
+        <h4>Full Stack Developer!</h4>
+        <p>I am a skilled web designer with over 3 month of experinence in the industry. My passion lies in creating
+          website design and implementing them through frontend development I take pride in staying up-to-date with
+          current design trends and leveraging my creativity to produce visually appealing and user-frendly websites.
+          Throughout my career, I have developed deep understanding of user experience (UX) and user interface(UI)
+          principles. By putting myself in the shoes of the end-user, I strive to create intutive and seemless browsing
+          experiences. I belive thaat a well-designed website should not only look visually appealing but also provide a
+          smooth and enjoyable interface for visitor. when starting a new project, I thoroughly research and analyze the
+          target audience and the client's specific requirements. This enables me to tailor my designs to meet their
+          expectations and deliver a unique online persence that aligns with their brand identity.. </p>
+        <a href="#" class="btn-box">More About me</a>
+      </div>
+  </section>
+
+  <section class="services" id="services">
+    <h1>My <span>Services</span></h1>
+    <div class="card-container">
+      <div class="card card1">
+        <i class='bx bx-code'></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel neque minus iusto ex placeat vitae autem
+          explicabo qui id laudantium commodi fugiat inventore necessitatibus sed veniam praesentium fuga nesciunt earum
+          eligendi, laboriosam, pariatur dignissimos.</p>
+        <a href="#" class="btn-box-1">Know More</a>
+      </div>
+      <div class="card card2">
+        <i class='bx bx-crop'></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel neque minus iusto ex placeat vitae autem
+          explicabo qui id laudantium commodi fugiat inventore necessitatibus sed veniam praesentium fuga nesciunt earum
+          eligendi, laboriosam, pariatur dignissimos.</p>
+        <a href="#" class="btn-box-1">Know More</a>
+      </div>
+      <div class="card card3">
+        <i class='bx bxl-apple'></i>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel neque minus iusto ex placeat vitae autem
+          explicabo qui id laudantium commodi fugiat inventore necessitatibus sed veniam praesentium fuga nesciunt earum
+          eligendi, laboriosam, pariatur dignissimos.</p>
+        <a href="#" class="btn-box-1">Know More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill">
+    <h1>My <span>Skills</span></h1>
+    <div class="skills">
+      <div class="techanical-skill">
+        <h2>Techanical Skill</h2>
+        <div class="skill-sets">
+          <div class="skill-set">
+            <i class='bx bxl-html5' style='color:rgb(227, 162, 41); font-size:30px;'  ></i>
+            <div class="progress-container">
+              <div class="progress-label">HTML</div>
+              <div class="per-tech">80%</div>
+            </div>
+            <div class=" html progress-bar"><span></span></div>
+          </div>
+          <div class="skill-set">
+            <i class='bx bxl-css3' style='color:#133fce; font-size:30px;'  ></i>
+            <div class="progress-container">
+              <div class="progress-label">CSS</div>
+              <div class="per-tech">90%</div>
+            </div>
+            <div class="css progress-bar"><span></span></div>
+          </div>
+          <div class="skill-set">
+            <i class='bx bxl-javascript' style='color:#dddd10; font-size:30px;'  ></i>
+            <div class="progress-container">
+              <div class="progress-label">Javascript</div>
+              <div class="per-tech">60%</div>
+            </div>
+            <div class="js progress-bar"><span></span></div>
+          </div>
+          <div class="skill-set">
+            <i class='bx bxl-react' style='color:#10ddca; font-size:30px;'  ></i>
+            <div class="progress-container">
+              <div class="progress-label">React</div>
+              <div class="per-tech">75%</div>
+            </div>
+            <div class="react progress-bar"><span></span></div>
+          </div>
+          <div class="skill-set">
+            <i class='bx bxl-python' style='color:#6b136b; font-size:30px;'  ></i>
+            <div class="progress-container">
+              <div class="progress-label">Python</div>
+              <div class="per-tech">85%</div>
+            </div>
+            <div class="python progress-bar"><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="professional-skill">
+        <h2>Professional Skill</h2>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="round-progress" r="80" cx="100" cy="100"></circle>
+              <circle class="path path-1" r="80" cx="100" cy="100"></circle>
+            </svg>
+            <div class="per-container">
+              <div class="per">90%</div>
+            </div>
+            <div class="txt-container">
+              <div class="text-prof">Creativity</div>
+            </div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="round-progress" r="80" cx="100" cy="100"></circle>
+              <circle class="path path-2" r="80" cx="100" cy="100"></circle>
+            </svg>
+            <div class="per-container">
+              <div class="per">85%</div>
+            </div>
+            <div class="txt-container">
+              <div class="text-prof">Team Work</div>
+            </div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="round-progress" r="80" cx="100" cy="100"></circle>
+              <circle class="path path-3" r="80" cx="100" cy="100"></circle>
+            </svg>
+            <div class="per-container">
+              <div class="per">70%</div>
+            </div>
+            <div class="txt-container">
+              <div class="text-prof">Figma</div>
+            </div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="round-progress" r="80" cx="100" cy="100"></circle>
+              <circle class="path path-4" r="80" cx="100" cy="100"></circle>
+            </svg>
+            <div class="per-container">
+              <div class="per">80%</div>
+            </div>
+            <div class="txt-container">
+              <div class="text-prof">Problem Solving</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project">
+    <h3 class="project">My <span>Project</span></h3>
+    <div class="main-content">
+      <dic class="row">
+        <img src="images/w1.jpg" alt="" />
+        <div class="img-text">
+          <h2>UI/UX Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil sint accusantium optio temporibus quibusdam porro autem? Iste itaque aut voluptate reiciendis, consequatur incidunt molestiae labore repellat aperiam quas! Voluptatibus.</p>
+          <i class='bx bx-export' ></i>
+        </div>
+      </dic>
+      <dic class="row">
+        <img src="images/w2.jpg" alt="" />
+        <div class="img-text">
+          <h2>UI/UX Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil sint accusantium optio temporibus quibusdam porro autem? Iste itaque aut voluptate reiciendis, consequatur incidunt molestiae labore repellat aperiam quas! Voluptatibus.</p>
+          <i class='bx bx-export' ></i>
+        </div>
+      </dic>
+      <dic class="row">
+        <img src="images/w3.jpg" alt="" />
+        <div class="img-text">
+          <h2>UI/UX Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil sint accusantium optio temporibus quibusdam porro autem? Iste itaque aut voluptate reiciendis, consequatur incidunt molestiae labore repellat aperiam quas! Voluptatibus.</p>
+          <i class='bx bx-export' ></i>
+        </div>
+      </dic>
+    </div>
+  </section>
+  <section id="contact">
+    <h3>Contact <span>Us</span></h3>
+    <div class="contact-container">
+      <div class="contact-me">
+        <h2>DON't BE SHY</h2>
+        <p>Feel free to get in touch with me. I am always open to descussing new projects. Creative ideas or opportunities to be part of your vision.</p>
+        <i class='bx bx-mail-send message' style='color:#00eeff' ></i>
+        <p>Mail me</p>
+        <p>portfollio@gmail.com</p>
+        <i class='bx bxs-phone-call message' style='color:#00eeff'  ></i>
+        <p>Call me</p>
+        <p>+91 1234567890</p>
+        <div class="home-sci">
+          <a href="#" style="--i:6"><img src="images/facebook.png" alt=""></a>
+          <a href="#" style="--i:7"><img src="images/instagram.png" alt=""></a>
+          <a href="#" style="--i:8"><img src="images/github.png" alt=""></a>
+          <a href="#" style="--i:9"><img src="images/linkedin.png" alt=""></a>
+        </div>
+      </div>
+      <form name="myform" action="a.php" onsubmit="return validation()">
+        <div class="form-group">
+          <input name="fname" type="text" class="input" placeholder="Enter your First name" />
+          <b><div id="fname-message" class="err-message"></div></b>
+        </div>
+        <div class="form-group">
+          <input name="lname" type="text" class="input" placeholder="Enter your Last name" />
+          <b><div id="lname-message" class="err-message"></div></b>
+        </div>
+        <div class="form-group">
+          <input name="cno" type="text" class="input" placeholder="Enter your Contact No." /><br/>
+          <b><div id="cno-message" class="err-message"></div></b>
+        </div>
+        <div class="form-group">
+          <input name="email" type="text" class="input" placeholder="Enter your Email" />
+          <b><div id="email-message" class="err-message"></div></b>
+        </div>
+        <div class="form-group">
+          <textarea name="add" type="text" class="input" rows="2" cols="30" placeholder="Enter your full Address" ></textarea>
+          <b><div id="add-message" class="err-message"></div></b>
+        </div>
+        <div class="form-group f-date">
+          <input name="date" type="date" class="input"/>
+          <b><div id="date-message" class="err-message"></div></b>
+        </div>
+        <div id="check" class="form-group f-check">
+          <input name="check" type="checkbox" class="input-check" checked >Agree that above Information is currect</input>
+          <b><div id="check-message" class="err-message"></div>
+        </div>
+        <input type="submit" class="submit-btn" value="submit"/>
+      </form>
+    </div>
+  </section>
+</body>
+<script src="main.js"></script>
+</body>
+
+</html>
