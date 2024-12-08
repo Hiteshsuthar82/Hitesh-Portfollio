@@ -370,11 +370,11 @@ body {
   left: 0px;
   
 }
-.html span{
-  animation: HTML-progress 1s 1s linear forwards;
+.wordpress span{
+  animation: wordpress-progress 1s 1s linear forwards;
 }
-.css span{
-  animation: CSS-progress 1s 1s linear forwards;
+.lit span{
+  animation: lit-progress 1s 1s linear forwards;
 }
 .js span{
   animation: Js-progress 1s 1s linear forwards;
@@ -382,8 +382,8 @@ body {
 .react span{
   animation: React-progress 1s 1s linear forwards;
 }
-.python span{
-  animation: Python-progress 1s 1s linear forwards;
+.nodejs span{
+  animation: nodejs-progress 1s 1s linear forwards;
 }
 
 
@@ -772,29 +772,29 @@ form textarea{
       width:100%;
     }
 }
-@keyframes HTML-progress{
+@keyframes wordpress-progress{
     100%{
-      width:80%;
+      width:60%;
     }
 }
-@keyframes CSS-progress{
+@keyframes lit-progress{
     100%{
       width:90%;
     }
 }
 @keyframes Js-progress{
     100%{
-      width:60%;
+      width:85%;
     }
 }
 @keyframes React-progress{
     100%{
-      width:75%;
+      width:95%;
     }
 }
-@keyframes Python-progress{
+@keyframes nodejs-progress{
     100%{
-      width:85%;
+      width:80%;
     }
 }
 @keyframes progress-path{
@@ -814,7 +814,7 @@ form textarea{
 }
 @keyframes progress-path-3{
   100%{
-    stroke-dashoffset: 150.6;
+    stroke-dashoffset: 250;
   }
 }
 @keyframes progress-path-4{
