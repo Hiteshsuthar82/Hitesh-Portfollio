@@ -774,7 +774,7 @@ form textarea{
 }
 @keyframes wordpress-progress{
     100%{
-      width:60%;
+      width:80%;
     }
 }
 @keyframes lit-progress{
@@ -794,7 +794,7 @@ form textarea{
 }
 @keyframes nodejs-progress{
     100%{
-      width:80%;
+      width:95%;
     }
 }
 @keyframes progress-path{
